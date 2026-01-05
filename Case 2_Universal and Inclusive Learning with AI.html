@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Case 2 – Universal and Inclusive Learning with AI</title>
+  <style>
+    :root{
+      --blue:#2563eb; --green:#16a34a; --bg:#f8fafc; --text:#0f172a; --card:#ffffff; --muted:#64748b; --border:#e2e8f0; --shadow:0 6px 16px rgba(0,0,0,.08);
+    }
+    *{box-sizing:border-box}
+    body{font-family:'Segoe UI',Roboto,system-ui,sans-serif;background:var(--bg);color:var(--text);margin:0;line-height:1.6}
+    header{background:linear-gradient(135deg,#dbeafe,#dcfce7);padding:28px 20px;box-shadow:var(--shadow);border-bottom:1px solid var(--border)}
+    header h1{margin:0;font-size:1.9em;color:var(--blue);text-align:center}
+    .chips{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:10px}
+    .chip{background:#dbeafe;color:var(--blue);padding:4px 10px;border-radius:20px;font-size:.85em}
+
+    /* Layout with sticky left navigation */
+    .app{max-width:1200px;margin:22px auto;padding:0 20px;display:grid;grid-template-columns:260px 1fr;gap:24px}
+    @media (max-width:960px){.app{grid-template-columns:1fr}}
+
+    nav.toc{position:sticky;top:16px;align-self:start;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:14px;box-shadow:var(--shadow)}
+    nav.toc h3{margin:0 0 8px 0;font-size:14px;letter-spacing:.03em;text-transform:uppercase;color:var(--muted)}
+    nav.toc a{display:block;padding:8px 10px;border-radius:8px;color:inherit;text-decoration:none}
+    nav.toc a:hover{background:#eef2ff;color:#1e40af}
+    nav.toc .sep{height:1px;background:var(--border);margin:8px 0}
+
+    main{display:grid;gap:24px}
+    section{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:24px;box-shadow:var(--shadow)}
+    h2{color:var(--blue);border-bottom:2px solid var(--blue);padding-bottom:6px;margin-top:0}
+    h3{color:var(--green);margin-top:1.1em}
+
+    /* List spacing (slightly tighter and aligned) */
+    ul,ol{margin-left:1.2em}
+    li::marker{color:var(--blue)}
+
+    table{width:100%;border-collapse:collapse;margin-top:10px}
+    th,td{border:1px solid var(--border);padding:10px;vertical-align:top}
+    th{background:#eff6ff;color:#1e40af;white-space:nowrap}
+    tr:nth-child(even){background:#f9fafb}
+
+    .note{background:#f0fdf4;border-left:5px solid var(--green);padding:10px 14px;margin:14px 0;border-radius:8px}
+    footer{text-align:center;color:var(--muted);font-size:.9em;padding:26px 0}
+  </style>
+</head>
+<body>
+<header>
+  <h1>Case 2: Universal and Inclusive Learning with AI</h1>
+  <div class="chips">
+    <span class="chip">Graduate Level</span>
+    <span class="chip">AI Captioning · Chatbots · Multimodal</span>
+    <span class="chip">UDL &amp; Inclusion</span>
+  </div>
+</header>
+
+<div class="app">
+  <!-- Left navigation -->
+  <nav class="toc" aria-label="On this page">
+    <h3>Contents</h3>
+    <a href="#scenario">Scenario Description</a>
+    <a href="#objectives">Learning Objectives</a>
+    <a href="#process">Teaching Activities &amp; Process</a>
+    <a href="#artifacts">Student Artifacts</a>
+    <a href="#rubric">Rubric</a>
+    <a href="#faculty">Guidelines for Faculty</a>
+    <a href="#students">Guidelines for Students</a>
+    <a href="#references">References</a>
+    <div class="sep"></div>
+    <a href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Back to top ↑</a>
+  </nav>
+
+  <main>
+    <!-- Scenario -->
+    <section id="scenario">
+      <h2>Scenario Description</h2>
+      <p>Dr. Rivera, a university faculty member, teaches a graduate-level course titled <em>Learning and Technology</em>. Her students come from diverse linguistic, cultural, and cognitive backgrounds, including several multilingual learners and one student with mild hearing loss. Although Dr. Rivera has experience applying Universal Design for Learning (UDL), she now wants to explore how artificial intelligence (AI) can further promote inclusion and learner autonomy in her course.</p>
+      <p>In one module titled <strong>Digital Collaboration for All</strong>, Dr. Rivera integrates multiple AI tools to support accessibility and engagement. She uses <strong>AI captioning and real-time transcription</strong> to make lectures more inclusive, embeds an <strong>AI chatbot tutor</strong> in the LMS to offer adaptive guidance, and invites students to use <strong>generative AI tools</strong> (e.g., text-to-image, translation, summarization) to demonstrate understanding in different formats.</p>
+      <p>These practices reflect the three core UDL principles: <em>multiple means of representation</em>, <em>multiple means of engagement</em>, and <em>multiple means of expression</em> (Saborío-Taylor &amp; Rojas-Ramírez, 2024). Through this module, Dr. Rivera models how AI can help instructors design learning environments that are equitable, flexible, and responsive to diverse student needs.</p>
+    </section>
+
+    <!-- Learning Objectives -->
+    <section id="objectives">
+      <h2>Learning Objectives</h2>
+      <ul>
+        <li>Explain how Universal Design for Learning (UDL) principles connect with AI tools that support diverse learners.</li>
+        <li>Analyze how different AI tools address learning barriers and ethical considerations in inclusive education.</li>
+        <li>Collaborate with peers to create an inclusive digital artifact through a self-selected modality (text, image, video, or audio).</li>
+        <li>Reflect critically on the ethical and responsible use of AI in education, considering fairness, bias, and data privacy.</li>
+      </ul>
+    </section>
+
+    <!-- Teaching Activities -->
+    <section id="process">
+      <h2>Teaching Activities and Process</h2>
+
+      <h3>Pre-Class Preparation</h3>
+      <div class="note">Goal: Prepare students with a shared understanding of inclusion and offer options that match their learning needs.</div>
+      <ul>
+        <li>Upload a short <strong>AI-captioned video</strong> introducing the module and explaining how AI can help remove learning barriers. Briefly define UDL (representation, engagement, expression) with real-world examples (e.g., translation, captioning, chatbot tutoring).</li>
+        <li>Post a <strong>list of AI tools</strong> with brief notes on inclusive functions (e.g., “Speech-to-text supports hearing-impaired learners,” “AI summarizers support multilingual learners”).</li>
+        <li>Gather a <strong>pre-class survey</strong> on students’ learning preferences and experiences with accessibility/technology; review responses to anticipate barriers and adapt instruction accordingly.</li>
+      </ul>
+
+      <h3>Launch and Engagement (15 minutes)</h3>
+      <div class="note">Goal: Build emotional connection, motivate participation, and model accessibility.</div>
+      <ul>
+        <li>Begin class by activating real-time captions; providing written instructions alongside verbal explanations to model inclusive practice.</li>
+        <li>Warm-up discussion prompt: <em>“Can you think of a time when technology helped—or made it harder—for you to learn?”</em> Students share in pairs, then debrief as a class.</li>
+        <li>Summarize students' ideas and introduce the challenge: <em>“How can AI make learning more inclusive for everyone?”</em> Connect to UDL and explains how AI support each principle:
+          <ul style="list-style-type:disc;margin-top:.4em;margin-left:1.2em;">
+            <li><strong>Representation:</strong> Offer information in multiple forms (e.g., audio, text, visuals).</li>
+            <li><strong>Engagement:</strong> Support motivation and autonomy via adaptive AI feedback.</li>
+            <li><strong>Expression:</strong> Allow flexible, multimodal outputs (e.g., images, videos, translated text).</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>Exploration and Demonstration (25–30 minutes)</h3>
+      <div class="note">Goal: Deepen understanding of inclusion and ethics through collaborative problem-solving.</div>
+      <ul>
+        <li>Students form small mixed-ability groups; each group explores one AI tool from the curated list:
+          <ul style="list-style-type:disc;margin-top:.4em;margin-left:1.2em;">
+            <li><strong>Group A:</strong> Captioning/transcription (e.g., Otter.ai, Whisper).</li>
+            <li><strong>Group B:</strong> AI chatbots for guidance/feedback (e.g., ChatGPT, MagicSchool.ai).</li>
+            <li><strong>Group C:</strong> Generative multimodal tools (e.g., Canva AI, D-ID, Recraft).</li>
+          </ul>
+        </li>
+        <li>Group discuss: Which learning barrier might this tool address? How could it support diverse learners in real classroom settings? What ethical/fairness issues may arise (Coy et al., 2025; Chandramma et al., 2025)?</li>
+        <li>Instructor roaming prompts: <em>“Who benefits most from this design? Who might still be left out?”</em></li>
+      </ul>
+
+      <h3>Creation and Application (45–60 minutes)</h3>
+      <div class="note">Goal: Apply inclusive design and critical thinking while learning through choice and creativity.</div>
+      <ul>
+        <li>Students independently design a <strong>mini-inclusive learning artifact</strong> using one or more AI tools. Examples:
+          <ul style="list-style-type:disc;margin-top:.4em;margin-left:1.2em;">
+            <li>A <strong>captioned video reflection</strong> explaining how AI increases access.</li>
+            <li>A <strong>visual infographic</strong> made with AI that illustrates inclusive steps.</li>
+            <li>A <strong>bilingual or summarized text</strong> created using AI translation/summarization tools.</li>
+          </ul>
+        </li>
+        <li>Provide ongoing support and guiding questions: <em>“How does your artifact help remove learning barriers?”</em> <em>“Does it provide multiple ways to access and express understanding?”</em></li>
+      </ul>
+
+      <h3>Reflection, Peer Review, and Sharing (40–50 minutes)</h3>
+      <div class="note">Goal: Consolidate learning through reflection and feedback.</div>
+      <ol>
+        <li><strong>Personal Reflection (10 min):</strong> 300–400 words describing the chosen AI tool, how the artifact supports inclusion, and ethical/accessibility issues observed.</li>
+        <li><strong>Peer Review (20 min):</strong> Exchange work in small groups and use the peer-review rubric to guide feedback:
+          <table>
+            <thead>
+              <tr><th>Area</th><th>Guiding Question</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Accessibility</td><td>Is the artifact easy to access (clear visuals, captions, transcripts)?</td></tr>
+              <tr><td>Clarity of Message</td><td>Is the main idea understandable to diverse learners?</td></tr>
+              <tr><td>Use of AI for Inclusion</td><td>Does AI clearly enhance accessibility, flexibility, or engagement?</td></tr>
+              <tr><td>Ethical Awareness</td><td>Does the creator consider bias, fairness, or data responsibility?</td></tr>
+            </tbody>
+          </table>
+          <p>Each reviewer adds two comments: <em>“One thing I learned from your work…”</em> and <em>“One suggestion to make it more inclusive…”</em></p>
+        </li>
+        <li><strong>Whole-Class Discussion (10–15 min):</strong> Which AI tools supported learning most effectively? What did you notice about accessibility and ethics? How might you apply similar approaches in your field?</li>
+      </ol>
+
+      <h3>Instructor Reflection and Follow-Up</h3>
+      <div class="note">Goal: Model reflective teaching and promote institutional learning on inclusive innovation.</div>
+      <ul>
+        <li>Review artifacts using the instructor rubric; collect anonymous student feedback on the most useful tools.</li>
+        <li>Share reflections and examples of inclusive AI teaching with colleagues to foster a departmental conversation on equity-focused course design.</li>
+      </ul>
+    </section>
+
+    <!-- Artifacts -->
+    <section id="artifacts">
+      <h2>Student Artifacts</h2>
+      <p class="note"><strong>Deliverables:</strong> Submit both items in accessible formats (e.g., captioned video, PDF with alt text, formatted Word document).</p>
+      <ul>
+        <li><strong>Inclusive Learning Artifact (2–3 pages or equivalent):</strong> A multimodal product created with at least one AI tool demonstrating how AI improves access, engagement, or inclusion.</li>
+        <li><strong>Reflective Commentary (300–400 words):</strong> Explain tool choice, inclusive rationale, and ethical considerations. Optional: brief peer-feedback summary and revisions.</li>
+      </ul>
+    </section>
+
+    <!-- Rubric -->
+    <section id="rubric">
+      <h2>Rubric for Evaluating Student Artifacts</h2>
+      <table>
+        <colgroup>
+          <col style="width:24%">
+          <col style="width:28%">
+          <col style="width:24%">
+          <col style="width:24%">
+        </colgroup>
+        <thead>
+          <tr>
+            <th>Criterion</th>
+            <th>Excellent (3)</th>
+            <th>Proficient (2)</th>
+            <th>Emerging (1)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>UDL Application (representation, engagement, expression)</td>
+            <td>Demonstrates at least two UDL principles with clear explanation of how barriers were reduced.</td>
+            <td>Demonstrates one UDL principle or limited explanation.</td>
+            <td>Minimal or unclear UDL connection.</td>
+          </tr>
+          <tr>
+            <td>AI Integration for Inclusion</td>
+            <td>Uses AI purposefully to enhance accessibility, flexibility, or learner choice; clearly explains inclusive impact.</td>
+            <td>Uses AI effectively but with limited connection to inclusion.</td>
+            <td>AI used superficially or without clear purpose.</td>
+          </tr>
+          <tr>
+            <td>Accessibility &amp; Design Quality</td>
+            <td>Fully accessible (captions, alt text, clear visuals, readable layout) and understandable to diverse learners.</td>
+            <td>Mostly accessible; minor improvements needed.</td>
+            <td>Lacks accessibility or clarity.</td>
+          </tr>
+          <tr>
+            <td>Ethical &amp; Reflective Awareness</td>
+            <td>Critically analyzes fairness, bias, and privacy; connects to inclusive teaching practice.</td>
+            <td>Mentions ethics briefly but lacks depth.</td>
+            <td>No ethical or reflective analysis.</td>
+          </tr>
+          <tr>
+            <td>Creativity &amp; Clarity</td>
+            <td>Communicates ideas clearly, creatively, and coherently using inclusive design.</td>
+            <td>Functional but lacks creativity or cohesion.</td>
+            <td>Disorganized or incomplete artifact.</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="note"><strong>Scoring Guide:</strong> 13–15 = Excellent; 10–12 = Proficient; Below 10 = Needs Improvement</p>
+    </section>
+
+    <!-- Faculty Guide -->
+    <section id="faculty">
+      <h2>Guidelines for Faculty</h2>
+      <ul>
+        <li>Introduce UDL principles in accessible language and connect them to real classroom practice.</li>
+        <li>Provide tool demonstrations with accessibility options (captioned videos, text instructions).</li>
+        <li>Emphasize reflection over perfection: encourage experimentation and ethical awareness.</li>
+        <li>Facilitate peer feedback as a learning process, not just evaluation.</li>
+        <li>After the activity, reflect on which tools supported inclusion and which barriers remained; share examples and findings with colleagues to promote ongoing professional learning.</li>
+      </ul>
+      <p><em>Pedagogical rationale:</em> This case positions AI not as a replacement for teaching but as a bridge to inclusion, consistent with UDL’s focus on learner variability and accessibility (Chandramma et al., 2025; Coy et al., 2025).</p>
+    </section>
+
+    <!-- Students Guide -->
+    <section id="students">
+      <h2>Guidelines for Students</h2>
+      <ol>
+        <li><strong>Choose an AI tool</strong> that supports your preferred learning or expression style.</li>
+        <li><strong>Focus on inclusion:</strong> Show how AI helps make learning more accessible or inclusive.</li>
+        <li><strong>Design for access:</strong> Ensure captions, transcripts, and alt text where appropriate.</li>
+        <li><strong>Name the UDL links:</strong> Explain which UDL principles your work demonstrates.</li>
+        <li><strong>Address ethics:</strong> Note any issues of bias, fairness, or data responsibility.</li>
+        <li><strong>Give kind, specific peer feedback</strong> using the provided rubric.</li>
+        <li><strong>Submit in an accessible format</strong> (e.g., captioned video, accessible PDF/Word).</li>
+      </ol>
+    </section>
+
+    <!-- References (APA) -->
+    <section id="references">
+      <h2>References</h2>
+      <ul>
+        <li>Chandramma, R., Babu, K. S., Ranjith, K. S., Sinha, A. K., Neerugatti, V., &amp; Reddy, D. S. (2025). Enhancing E-learning Accessibility through AI (Artificial Intelligence) and Inclusive Design. In <em>2025 6th International Conference on Mobile Computing and Sustainable Informatics (ICMCSI)</em> (pp. 1466–1471). https://doi.org/10.1109/ICMCSI64620.2025.10883148</li>
+        <li>Coy, A., Mohammed, P. S., &amp; Skerrit, P. (2025). Inclusive deaf education enabled by artificial intelligence: The path to a solution. <em>International Journal of Artificial Intelligence in Education, 35</em>(1), 96–134. https://doi.org/10.1007/s40593-024-00419-9</li>
+        <li>Saborío-Taylor, S., &amp; Rojas-Ramírez, F. (2024). Universal design for learning and artificial intelligence in the digital era: Fostering inclusion and autonomous learning. <em>International Journal of Professional Development, Learners and Learning, 6</em>(2), ep2408. https://doi.org/10.30935/ijpdll/14694</li>
+      </ul>
+    </section>
+  </main>
+</div>
+
+<footer>Created for Inclusive Teaching • Universal &amp; AI-Supported Learning Case 2025</footer>
+</body>
+</html>
+
